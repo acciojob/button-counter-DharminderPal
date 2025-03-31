@@ -1,10 +1,10 @@
 
-// import React from "react";
-import React, { useState } from 'react';
+import React from "react";
+// import React, { useState } from 'react';
 import './../styles/App.css';
 
 const App = () => {
-const [count, setCount] = useState(0);
+// const [count, setCount] = useState(0);
  const handleClick = () => {
     setCount(count + 1);
 

@@ -15,7 +15,7 @@ const [count, setCount] = useState(0);
 <div>
    
     <p>Button clicked {count} times</p>
-    <button onClick={onAdd}>Click me</button>
+    <button onClick={handleClick}>Click me</button>
    </div>
   )
 }
